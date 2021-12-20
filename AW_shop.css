@@ -1,0 +1,46 @@
+#body{
+    display: flex;
+    flex-direction: column;
+    background: url("background.jpg");
+    background-size: cover;   
+    background-color: rgba(35, 33, 33, 1); 
+    background-attachment: fixed;
+    overflow-y: hidden;
+}
+.logo{
+    display: block;
+    width: 30%;
+    height: 10%;
+    margin-left: 36%;
+    margin-top: 3.5%;
+}
+.violet{
+    margin-top: 3%;
+    margin-left: 7.5%;
+    width: 40%;
+    background-color:#73558E;
+    color: white;
+    font-family: BigNoodleTooOblique;
+    font-size: 24pt;
+    text-align: center;
+}
+.shop{
+    display: flex;
+    flex-direction: column;
+    background-color: #22B573;
+    font-family: BigNoodleTooOblique;
+    font-size: 18pt;
+    margin-left: 7.5%;
+    width: 40%;
+    text-align: center;
+}
+.go{
+    width: 15%;
+    font-family: BigNoodleTooOblique;
+    font-size: 25pt;
+    background-color: #73558E;
+    color:white;
+    border-radius: 5px;
+    margin-left: 42%;
+    margin-top: 5%;
+}

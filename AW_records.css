@@ -1,0 +1,46 @@
+#body{
+    display: flex;
+    flex-direction: column;
+    background: url("background.jpg");
+    background-size: cover;   
+    background-color: rgba(35, 33, 33, 1); 
+    background-attachment: fixed;
+}
+.logo{
+    display: block;
+    width: 40%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5%;
+}
+#main{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+.maintext{
+display: block;
+width: 60%;
+height: 50%;
+left: 93px;
+margin-top: 5%;
+margin-left:10%;
+font-family: BigNoodleTooOblique;
+font-style: italic;
+font-weight: normal;
+font-size: 40pt;
+line-height: 60px;
+float: left;
+color: #FFFFFF;
+}
+.dj{
+display: block;
+width: 60%;
+height: 330px;
+margin-top: 3%;
+margin-left: 5%;
+background: url(dj.jpg);
+border-radius: 15px;
+float:right;
+}

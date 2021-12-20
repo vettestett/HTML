@@ -1,0 +1,178 @@
+#body{
+    display: flex;
+    flex-direction: column;
+    background: url(background.jpg);
+    background-size: cover;   
+    background-color: rgba(35, 33, 33, 1); 
+    background-attachment: fixed;
+    overflow-y: hidden;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    display: block;
+    width: 30%;
+    height: 10%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+.beats{
+    font-family: BigNoodleTooOblique;
+    font-size: 39pt;
+    background: transparent;
+    color:white;
+    border-radius: 5px;
+    border-color: white;
+    width: 15%;
+    height: 10%;
+    margin: 10%;
+}
+.voicerec{
+    font-family: BigNoodleTooOblique;
+    font-size: 39pt;
+    background: transparent;
+    color:white;
+    border-radius: 5px;
+    border-color: white;
+    width: 25%;
+    height: 10%;
+}
+.more{
+    font-family: BigNoodleTooOblique;
+    font-size: 39pt;
+    background: transparent;
+    color:white;
+    border-radius: 5px;
+    border-color: white;
+    width: 15%;
+    height: 10%;
+    margin: 12%;
+}
+.contacts{
+    font-family: BigNoodleTooOblique;
+    font-size: 39pt;
+    background: transparent;
+    color:white;
+    border-radius: 5px;
+    border-color: white;
+    width: 15%;
+    height: 10%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px;
+}
+.srsly{
+    background: url("srsly.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.BloodMoonBeats{
+    width: 32%;
+    height: 400px;
+    background: url("blood.jpg");
+    background-size: cover;
+}
+.GT4{
+    background: url("gt4n.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: space-between;
+    font-family: BigNoodleTooOblique;
+    font-size: 27pt; 
+    color: white;
+    margin: 10%;
+    margin-top: -10px;
+    word-wrap: break-word;
+}
+.backlogo{
+    width:70px;
+    margin-left: 48%;
+    margin-bottom: -600px;
+}
+.beatz{
+    opacity: 0;
+}
+.buttonz{
+    opacity: 1;
+}
+.books{
+    background: url("books.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.trackrec{
+    width: 32%;
+    height: 400px;
+    background: url("track.jpg");
+    background-size: cover;
+}
+.keysong{
+    background: url("key.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.soundz{
+    opacity: 0;
+    margin-top: -45.8;
+}
+.otherz{
+    opacity: 0;
+    margin-top: -45.8;
+}
+.credits{
+    background: url("type.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.town{
+    background: url("towm.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.support{
+    background: url("money.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.cont1{
+    background: url("1.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.cont2{
+    background: url("2.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.cont3{
+    background: url("3.jpg");
+    width: 32%;
+    height: 400px;
+    background-size: cover;
+}
+.contactz{
+    opacity: 0;
+}
